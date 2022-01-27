@@ -1,38 +1,156 @@
 body {
-    font-family: Hero, 'Times New Roman';
-    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    margin: auto;
 }
 
 #a {
-    padding: 0 70px;
-    height: 20em;
-    color: aqua;
+    padding: 0 20em;
+    height: 40em;
+    width: auto;
     background-color: #1f2937;
 }
 
 .top {
-    height: 1em;
+    height: 4em;
+    width: auto;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+
+.img1 {
+    height: 2em;
+    width: 8em;
+}
+
+.button {
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    color: white;
+    font-size: larger;
+}
+
+.title {
+    height: 20em;
+    margin: 10em 0;
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.titleText {
+    flex: 1;
+    display: block;
+    color: white;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+p {
+    font-size: 18px;
+}
+
+.button4 {
+    height: 40px;
+    width: 7em;
+    font-size: 24px;
+    font-weight: bold;
+    background-color: #3882f6;
+    color: white;
+    border: none;
+    border-radius: 12px;
+}
+
+.photo {
+    display: flex;
+    justify-content: flex-end;
+    height: auto;
+    width: auto;
+    display: block;
+    flex: 1;
+}
+
+.img2 {
+    display: block;
+    height: 300px;
+    width: auto;
+    margin: auto;
+}
+
+#b {
+    padding: 0 20em;
+    height: 40em;
+    background-color: rgb(255, 255, 255);
+}
+
+h2 {
+    display: block;
+    margin: 0;
+    padding: 2em;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    height: 350px;
     display: flex;
     justify-content:space-between;
 }
 
-.img1 {
-    justify-self: left;
+.justice {
+    height: 14em;
+    width: 14em;
+    border: 5px solid #3882f6;
+    border-radius: 12px;
 }
 
-.button1,
-.button2,
-.button3 {
-    margin: 1em;
-    color: white;
-    justify-self: right;
+li  {
+
+    list-style-type: none;
 }
 
-.img2 {
-    height: 150px;
-    width: auto;
+.li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-#b {
-    margin: 500px 0 0 0;
+.podpis {
+    margin: 0;
+    width: 14em;
+    text-align: center;
+    font-size: smaller;
+}
+
+#c {
+    padding: 0 20em;
+    height: 30em;
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: 1;
+    display: block;
+    justify-self: center;
+    font-style: italic;
+    text-justify: inter-ideograph;
+}
+
+.sign {
+    height: auto;
+    width: 200px;
+    font-size: medium;
+    font-weight: 900;
+    align-self: flex-end;
 }
