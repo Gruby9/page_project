@@ -154,3 +154,46 @@ li  {
     font-weight: 900;
     align-self: flex-end;
 }
+
+#d {
+    height: 22em;
+    width: auto;
+    padding: 0 20em;
+    background-color: white;
+    align-items: center;
+}
+
+.box{
+    margin: 7em 0;
+    height: 8em;
+    display: block;
+    width: auto;
+    background-color: #3882f6;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.h4 {
+    margin: auto auto 0 auto;
+    font-size: larger;
+    font-weight: 900;
+    color: white;
+}
+
+.bottomLine {
+    margin: 0 auto auto auto;
+    color: white;
+    font-size: medium;
+}
+
+.bottomButton {
+    background-color: rgba(0, 0, 0, 0);
+    width: 180px;
+    height: 60px;
+    color: white;
+    border: 5px solid white;
+    border-radius: 7px;
+    font-size: larger;
+}
